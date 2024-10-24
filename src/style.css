@@ -80,6 +80,7 @@ footer h3{text-align: left;}
 footer a, a:visited{
     color:aqua;
 }
+i{margin-right:10px;}
 .container{
 max-width:1400px;
 margin: 0 auto;
@@ -90,7 +91,4 @@ margin: 0 auto;
     footer{font-size: 12px;}
     .footer-grid{
     grid-template-columns: 1fr;}
-}
-.icons{
-    margin-inline: 10px;
 }
