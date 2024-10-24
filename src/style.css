@@ -1,14 +1,22 @@
 body{
-    font-family: nunito;}
+    font-family: nunito;
+background-color: rgba(201, 138, 90, 0.4);}
 
-footer{font-size: 12px;}
+footer{
+background-image:linear-gradient(rgba(20,0,10,0.8), rgba(20,0,10,0.8)), url("/image/toulouse3.jpg");
+background-size: cover;
+opacity: 0.9;
+background-repeat: no-repeat;
+background-position: bottom, 30px;
+color:white;
+padding: 30px;}
 
 header{
 background-image: linear-gradient(rgba(20,0,10,0.5), rgba(20,0,10,0.6)), url("/image/toulouse11.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 color:white;
-padding:220px 0;
+padding:200px 0;
 background-position: bottom;
 }
 
@@ -27,8 +35,8 @@ text-align: center;
 text-shadow: 5px 5px 3px rgb(61, 1, 90)}
 
 h3{line-height: 1;
-font-weight: 300;
-font-size: 36px;
+font-weight: 500;
+font-size: 18px;
 text-align: center;}
 
 button{
@@ -45,7 +53,32 @@ button{
     font-size: 18px;
     box-shadow: 0px 1px 2px 3px #523243;
 }
+ul{
+    list-style: none;
+    font-size: 16px;
+margin: 0px;
+padding: 0px;}
 
+li{
+margin: 0px;
+padding: 0px;
+line-height: 1.5;}
+
+p{font-size:16px;
+text-align: left;
+}
+
+footer h3{text-align: left;}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap:80px;
+    margin-left: 20px;
+}
+
+footer a, a:visited{
+    color:aqua;
+}
 .container{
 max-width:1400px;
 margin: 0 auto;
