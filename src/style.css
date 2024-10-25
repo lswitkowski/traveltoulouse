@@ -33,27 +33,17 @@ h2{line-height: 1;
 font-weight: 700;
 font-size: 66px;
 text-align: center;
-text-shadow: 5px 5px 3px rgb(61, 1, 90)}
+text-shadow: 5px 5px 3px rgb(61, 1, 90);
+margin-bottom: 10%;}
 
 h3{line-height: 1;
 font-weight: 500;
 font-size: 18px;
 text-align: center;}
 
-button{
-    text-align: center;
-    border:2px solid rgb(41, 1, 90);
-    margin: 0 auto;
-    display:block;
-    padding: 20px 30px;
-    background-color: pink;
-    border-radius: 6%;
-    font-family: nunito;
-    color:purple;
-    font-weight: 800;
-    font-size: 18px;
-    box-shadow: 0px 1px 2px 3px #523243;
-}
+
+
+
 ul{
     list-style: none;
     font-size: 16px;
@@ -67,6 +57,7 @@ line-height: 1.5;}
 
 p{font-size:16px;
 text-align: left;
+margin-top: 20%;
 }
 
 footer h3{text-align: left;}
@@ -77,18 +68,75 @@ footer h3{text-align: left;}
     margin-left: 20px;
 }
 
-footer a, a:visited{
+footer a, footer a:visited{
     color:aqua;
 }
 i{margin-right:10px;}
+
 .container{
 max-width:1400px;
 margin: 0 auto;
 }
+
+.why-toulouse{
+    margin:3%;
+     display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    text-align: left;
+   
+}
+.why-heading{
+    font-size: 34px;
+    color:rgba(61, 1, 90, 0.7);
+    text-shadow: 1px 1px 1px gray;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+.why-paragraph{
+    margin:0px auto;
+    padding-inline: 35% auto;
+    width:90%;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.bar{display: block;
+margin: 0 auto;}
+
+.cheese{display: block;
+margin: 0 auto;}
+
+.button{
+    text-align: center;
+    border:2px solid rgb(41, 1, 90);
+    padding: 20px 30px;
+    background-color: pink;
+    border-radius: 6%;
+    color:purple;
+    font-weight: 800;
+    font-size: 18px;
+    box-shadow: 0px 1px 2px 3px #523243;
+    text-decoration: none;
+}
+
+.center{text-align: center;}
 @media(max-width:900px){
     h1{font-size:60px;}
     h2{font-size:45px;}
-    footer{font-size: 12px;}
+    footer{font-size: 12px;
+    margin:30px auto;}
     .footer-grid{
-    grid-template-columns: 1fr;}
+    grid-template-columns: 1fr;
+margin-right: 20%;
+margin-left: 7%;}
+    
+@media(max-width:1000px)
+{    .why-toulouse{
+    grid-template-columns: 1fr;
 }
+.bar{margin-top:15%;}
+.cheese{
+margin-bottom:10%;}
+}}
