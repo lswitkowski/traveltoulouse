@@ -208,11 +208,7 @@ padding:1%;}
 font-weight: 500;
 opacity:0.8; margin-top:20px;}
 
-@media(max-width:700px){
-    .cards{
-    display: grid;
-    grid-template-columns:1fr;}
-}
+
 
 @media(max-width:900px){
     h1{font-size:60px;}
@@ -225,6 +221,7 @@ margin-right: 20%;
 margin-left: 7%;}
    .cards{
     grid-template-columns:1fr;}
+    .card{margin:0 auto;}
 .btn{padding: 12px 15px;}
 .instagram{
     grid-template-columns: 1fr;
