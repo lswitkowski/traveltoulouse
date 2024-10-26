@@ -74,7 +74,9 @@ footer a, footer a:visited{
 iframe{aspect-ratio: 1/1;
 width:100%;}
 
+.why{scroll-margin-top: 40px;}
 
+.icons{margin-right: 10px;}
 .container{
 max-width:1400px;
 margin: 0 auto;
@@ -131,14 +133,15 @@ margin: 0 auto;}
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:16px;
-    width: 100%;
+    grid-gap:24px;
+    
 }
 .card{
     background-color:white;
     padding-bottom:20px;
     border-radius: 3px;
     position:relative;
+    width: 96%;
 }
 
 .card-pics{
@@ -150,6 +153,7 @@ border-radius: 2px;}
 .card-text{
     margin:0px 10px 50px 10px;
     line-height: 1.5;
+    padding:1px;
 
 }
 img{border-radius: 2px;}
@@ -171,6 +175,39 @@ position:absolute; bottom:20px;}
     margin-bottom: 0;
 }
 
+
+
+.my-favorite{
+    background-color:rgb(244, 230, 220);
+    padding:2%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-radius: 3px;
+}
+.favorite-header{font-size: 36px;
+font-weight: bold;
+opacity: 0.7;
+margin-bottom: 30px;
+margin-top: 20px;
+padding:1%;}
+
+.instagram{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+    border-radius: 3px;
+    background-color:rgb(244, 230, 220);
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-radius: 3px;
+    padding:2%;
+}
+.insta{width:100%;}
+.instap{
+    font-size: 30px;
+font-weight: 500;
+opacity:0.8; margin-top:20px;}
+
 @media(max-width:700px){
     .cards{
     display: grid;
@@ -188,29 +225,23 @@ margin-right: 20%;
 margin-left: 7%;}
    .cards{
     grid-template-columns:1fr;}
-.btn{padding: 12px 15px;}}
+.btn{padding: 12px 15px;}
+.instagram{
+    grid-template-columns: 1fr;
+}
+}
 
 
     
-@media(max-width:1000px)
-{    .why-toulouse{
+@media(max-width:1000px){
+   .why-toulouse{
     grid-template-columns: 1fr;
 }
 .bar{margin-top:15%;}
 .cheese{
-margin-bottom:10%;}
+margin-bottom:10%;
 }
-
-.my-favorite{
-    background-color:rgb(244, 230, 220);
-    padding:2%;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    border-radius: 3px;
+.instap{font-size:25px;
+margin: 30px auto;
+text-align: center;}
 }
-.favorite-header{font-size: 36px;
-font-weight: bold;
-opacity: 0.7;
-margin-bottom: 30px;
-margin-top: 20px;
-padding:1%;}
