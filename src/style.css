@@ -71,7 +71,9 @@ footer h3{text-align: left;}
 footer a, footer a:visited{
     color:aqua;
 }
-i{margin-right:10px;}
+iframe{aspect-ratio: 1/1;
+width:100%;}
+
 
 .container{
 max-width:1400px;
@@ -143,6 +145,7 @@ margin: 0 auto;}
     display: grid;
     grid-template-columns: 1fr 1fr;
 border-radius: 2px;}
+
 
 .card-text{
     margin:0px 10px 50px 10px;
