@@ -74,6 +74,10 @@ footer a, footer a:visited{
 iframe{aspect-ratio: 1/1;
 width:100%;}
 
+th, td{ padding: 5px;
+text-align: left; 
+font-size: 16px;}
+
 .why{scroll-margin-top: 40px;}
 
 .icons{margin-right:10px;}
@@ -174,7 +178,7 @@ position:absolute; bottom:20px;}
 .bottom-margin{
     margin-bottom: 0;
 }
-
+.right{padding-left:20px;}
 
 
 .my-favorite{
@@ -199,14 +203,13 @@ padding:1%;}
     background-color:rgb(244, 230, 220);
     margin-top: 8%;
     margin-bottom: 8%;
-    border-radius: 3px;
     padding:2%;
 }
 .insta{width:100%;}
 .instap{
-    font-size: 30px;
+    font-size: 22px;
 font-weight: 500;
-opacity:0.8; margin-top:20px;}
+opacity:0.8; margin-top:8px;}
 
 
 
@@ -224,8 +227,8 @@ margin-left: 7%;}
     .card{margin:0 auto;}
 .btn{padding: 12px 15px;}
 .instagram{
-    grid-template-columns: 1fr;
-}
+    grid-template-columns: 1fr;}
+    table{margin-left:4%;}
 }
 
 
@@ -238,7 +241,8 @@ margin-left: 7%;}
 .cheese{
 margin-bottom:10%;
 }
-.instap{font-size:25px;
-margin: 30px auto;
-text-align: center;}
+.instap{font-size:20px;
+margin: 20px auto;
+text-align: center;
+}
 }
