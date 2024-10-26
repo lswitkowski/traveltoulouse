@@ -117,7 +117,7 @@ margin: 0 auto;}
     text-align: center;
     border:2px solid rgb(41, 1, 90);
     padding: 20px 30px;
-    background-color: pink;
+    background-color: rgb(248, 190, 175);
     border-radius: 6%;
     color:purple;
     font-weight: 800;
@@ -156,8 +156,8 @@ img{border-radius: 2px;}
 
 .btn{text-align: center;
     border:1px solid rgb(41, 1, 90);
-    padding: 6px 8px;
-    background-color: pink;
+    padding: 8px 10px;
+    background-color: rgb(248, 190, 175);
     border-radius: 7px;
     color:purple;
     font-weight: 600;
